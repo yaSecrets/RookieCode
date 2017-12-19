@@ -37,7 +37,7 @@ public class MyThread1 extends Thread
 			thread.start();
 			System.out.println("开始睡觉");
 			Thread.sleep(20);
-			thread.interrupt();
+			thread.stop();
 		} catch (InterruptedException e)
 		{
 			e.printStackTrace();
