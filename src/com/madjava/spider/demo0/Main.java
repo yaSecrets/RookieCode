@@ -70,7 +70,7 @@ public class Main
     public static void main (String[] args){
         String url = "http://www.baidu.com";
         String result = sentGet(url);
-        /*System.out.println(result);*/
+        System.out.println(result);
         String imgSrc = RegaxString(result,"src=\"(.+?)\"");
         System.out.println(imgSrc);
     }
