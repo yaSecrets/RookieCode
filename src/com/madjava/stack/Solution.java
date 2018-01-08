@@ -3,6 +3,7 @@ package com.madjava.stack;
 import java.util.Stack;
 
 /**
+ * evaluate-reverse-polish-notation
  *  Evaluate the value of an arithmetic expression in Reverse Polish Notation.
 
  Valid operators are+,-,*,/. Each operand may be an integer or another expression.
